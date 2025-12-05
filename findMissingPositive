@@ -11,3 +11,10 @@ public class Main {
             }
         }
 
+        // Check from 1 upwards
+        int smallest = 1;
+        while (set.contains(smallest)) {
+            smallest++;
+        }
+    }
+}
