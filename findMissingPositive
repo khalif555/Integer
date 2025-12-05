@@ -16,5 +16,17 @@ public class Main {
         while (set.contains(smallest)) {
             smallest++;
         }
+          return smallest;
     }
-}
+
+    public static void main(String[] args) {
+        int[] arr1 = {3, 4, -1, 1};
+        int[] arr2 = {1, 2, 0};
+        int[] arr3 = {7, 8, 9, 11};
+
+        System.out.println(firstMissingPositive(arr1)); // 2
+        System.out.println(firstMissingPositive(arr2)); // 3
+        System.out.println(firstMissingPositive(arr3)); // 1
+    }
+    }
+
